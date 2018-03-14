@@ -2,9 +2,9 @@
 Crypto currency market rates developed from the free API Available on Coin market cap.
 
 ## Screenshots
-![Coins List](/Screenshots/Allcoins)
-![Load next 50 coin](/Screenshots/Loadmore)
-![Pull down](/Screenshots/Pulldown)
+![Coins List](/Screenshots/Allcoins.png)
+![Load next 50 coin](/Screenshots/Loadmore.png)
+![Pull down](/Screenshots/Pulldown.png)
 
 ## What to expect
 1. Real time changes in the crypto market, 1h, 24h, 7days
