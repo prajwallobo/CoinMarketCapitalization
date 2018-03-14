@@ -1,0 +1,6 @@
+framework module Pods_Crypt_Market_CapTests {
+  umbrella header "Pods-Crypt Market CapTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

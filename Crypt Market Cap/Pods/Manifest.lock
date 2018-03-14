@@ -1,0 +1,28 @@
+PODS:
+  - Alamofire (4.5.1)
+  - AlamofireObjectMapper (5.0.0):
+    - Alamofire (~> 4.1)
+    - ObjectMapper (~> 3.0)
+  - ObjectMapper (3.0.0)
+  - SVProgressHUD (2.2.1)
+  - SwiftDate (4.4.1)
+  - SwiftyDrop (4.0.1)
+
+DEPENDENCIES:
+  - Alamofire (~> 4.5)
+  - AlamofireObjectMapper (~> 5.0)
+  - SVProgressHUD
+  - SwiftDate
+  - SwiftyDrop (~> 4.0)
+
+SPEC CHECKSUMS:
+  Alamofire: 2d95912bf4c34f164fdfc335872e8c312acaea4a
+  AlamofireObjectMapper: 5fafc816351cbbc0d486611aaeba7461c0cbad49
+  ObjectMapper: 92230db59bf8f341a5c3a3cf0b9fbdde3cf0d87f
+  SVProgressHUD: db27c54e6e18bc903341661fc9feb55e04905cc4
+  SwiftDate: a70a534d4feed03b2a2b575e36bef82dc2286a8d
+  SwiftyDrop: d037f6c150d50afbe1107ed5d95e75a7065b7f4c
+
+PODFILE CHECKSUM: 4d642957e6b53db21841adbb125f9672235cacbb
+
+COCOAPODS: 1.3.1

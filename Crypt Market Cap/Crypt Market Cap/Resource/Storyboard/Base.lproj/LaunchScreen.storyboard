@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="HiraginoKakuGothic.ttc">
+            <string>HiraginoSans-W3</string>
+            <string>HiraginoSans-W6</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="Qv4-q1-Je3">
+            <objects>
+                <viewController id="s65-Sd-JlK" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="e4t-Mb-x0s">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Crypto Market Cap" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sSE-43-DfH">
+                                <rect key="frame" x="32" y="328.5" width="311" height="30"/>
+                                <fontDescription key="fontDescription" name="HiraginoSans-W6" family="Hiragino Sans" pointSize="30"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Cryptocurrency Market Capitalization" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hDc-oj-bQY">
+                                <rect key="frame" x="120" y="363.5" width="223" height="12"/>
+                                <fontDescription key="fontDescription" name="HiraginoSans-W3" family="Hiragino Sans" pointSize="12"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="hDc-oj-bQY" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="e4t-Mb-x0s" secondAttribute="leading" constant="20" symbolic="YES" id="B8Z-Xh-hmc"/>
+                            <constraint firstItem="sSE-43-DfH" firstAttribute="centerY" secondItem="wdQ-8U-xWf" secondAttribute="centerY" id="F7q-Fc-90H"/>
+                            <constraint firstItem="hDc-oj-bQY" firstAttribute="trailing" secondItem="sSE-43-DfH" secondAttribute="trailing" id="a01-LV-Mf0"/>
+                            <constraint firstItem="sSE-43-DfH" firstAttribute="centerX" secondItem="wdQ-8U-xWf" secondAttribute="centerX" id="oO6-3c-XuH"/>
+                            <constraint firstItem="hDc-oj-bQY" firstAttribute="top" secondItem="sSE-43-DfH" secondAttribute="bottom" constant="5" id="ytg-G5-tpX"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="wdQ-8U-xWf"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ETq-Rv-WMX" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="136.80000000000001" y="132.68365817091455"/>
+        </scene>
+    </scenes>
+</document>
